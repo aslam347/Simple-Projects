@@ -1,0 +1,38 @@
+h3{                 /*  type selector*/
+    color: blue;
+    text-decoration: underline;
+}
+
+*{               /* Universal selector*/
+    color: brown;
+}
+
+p{                 /*  type selector*/
+    color: cadetblue;
+}
+
+#ownfood{           /* Id selector*/
+
+    color: crimson;
+}
+
+.headingpink{         /* class selector*/
+
+    color:deeppink
+}
+
+
+div>p{                /* child selector*/
+
+    color: aqua;
+}
+
+div a{                 /* Descendent selector*/
+
+    color: blue; text-decoration: underline;
+}
+
+h1{
+
+    color: darkgoldenrod !important;   /* More Important than any other selectors*/
+}
